@@ -89,7 +89,7 @@ public with sharing class DMLOperationsTest {
         insert testOpp;
 
         // Call the method to test
-        String newStage = 'Closed Won';
+        String newStage = 'Needs Analysis';
         DMLOperations.updateOpportunityStage(testOpp.Id, newStage);
 
         // Retrieve the updated Opportunity from the database
